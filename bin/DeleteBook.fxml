@@ -16,29 +16,29 @@
    <children>
       <TableView fx:id="table" layoutX="21.0" layoutY="160.0" prefHeight="600.0" prefWidth="734.0">
         <columns>
-          <TableColumn fx:id="idColumn" prefWidth="48.0" text="ID" />
+          <TableColumn fx:id="idColumn" prefWidth="48.0" text="ID sách" />
           <TableColumn fx:id="nameColumn" prefWidth="239.5" text="Tên sách" />
             <TableColumn fx:id="authorColumn" minWidth="0.0" prefWidth="321.5" text="Tên tác giả" />
             <TableColumn fx:id="borrowColum" prefWidth="106.0" text="Đã mượn?" />
         </columns>
       </TableView>
-      <Label layoutX="781.0" layoutY="288.0" text="Name">
+      <Label layoutX="781.0" layoutY="288.0" text="Tên sách">
          <font>
             <Font size="14.0" />
          </font></Label>
-      <Label layoutX="780.0" layoutY="349.0" text="Author">
+      <Label layoutX="780.0" layoutY="349.0" text="Tên tác giả">
          <font>
             <Font size="14.0" />
          </font></Label>
-      <Label layoutX="781.0" layoutY="230.0" text="ID">
+      <Label layoutX="781.0" layoutY="230.0" text="ID sách">
          <font>
             <Font size="14.0" />
          </font></Label>
       <TextField fx:id="idText" layoutX="855.0" layoutY="220.0" onKeyPressed="#keyPressedsearchID" prefHeight="40.0" prefWidth="252.0" />
       <TextField fx:id="nameText" layoutX="855.0" layoutY="278.0" onKeyPressed="#keyPressedsearchName" prefHeight="40.0" prefWidth="252.0" />
       <TextField fx:id="authorText" layoutX="855.0" layoutY="339.0" onKeyPressed="#keyPressedsearchAuthor" prefHeight="40.0" prefWidth="252.0" />
-      <Button fx:id="closeButton" layoutX="1105.0" layoutY="745.0" mnemonicParsing="false" onAction="#handleCloseButtonAction" prefHeight="41.0" prefWidth="76.0" text="Back" />
-      <Button fx:id="DeleteBookBtn" layoutX="934.0" layoutY="669.0" mnemonicParsing="false" onAction="#delete" style="-fx-background-color: #f57449;" text="Delete" textFill="#fcfcfc">
+      <Button fx:id="closeButton" layoutX="1105.0" layoutY="745.0" mnemonicParsing="false" onAction="#handleCloseButtonAction" prefHeight="41.0" prefWidth="76.0" text="Trở về" />
+      <Button fx:id="DeleteBookBtn" layoutX="942.0" layoutY="669.0" mnemonicParsing="false" onAction="#delete" style="-fx-background-color: #f57449;" text="Xóa" textFill="#fcfcfc">
          <graphic>
             <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -91,12 +91,12 @@
          </graphic>
       </Button>
       <TextField fx:id="UserText" layoutX="867.0" layoutY="476.0" onKeyPressed="#keyPressedLent" prefHeight="40.0" prefWidth="252.0" />
-      <Label layoutX="784.0" layoutY="487.0" text="User Name">
+      <Label layoutX="764.0" layoutY="487.0" text="Tên người mượn">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Button fx:id="Borrow" layoutX="935.0" layoutY="541.0" mnemonicParsing="false" onAction="#LendBook" text="Borrow">
+      <Button fx:id="Borrow" layoutX="935.0" layoutY="541.0" mnemonicParsing="false" onAction="#LendBook" text="Cho mượn">
          <graphic>
             <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -107,7 +107,7 @@
       </Button>
       <Pane layoutX="771.0" layoutY="160.0" prefWidth="420.0" style="-fx-background-color: #2598ff;">
          <children>
-            <Label layoutX="145.0" layoutY="3.0" text="Search Book" textFill="WHITE">
+            <Label layoutX="164.0" layoutY="5.0" text="Tìm sách" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
@@ -116,7 +116,7 @@
       </Pane>
       <Pane layoutX="771.0" layoutY="394.0" prefWidth="420.0" style="-fx-background-color: #2598ff;">
          <children>
-            <Label layoutX="142.0" layoutY="2.0" text="Borrow Book" textFill="WHITE">
+            <Label layoutX="154.0" layoutY="3.0" text="Mượn sách" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>
@@ -125,7 +125,7 @@
       </Pane>
       <Pane layoutX="771.0" layoutY="616.0" prefWidth="420.0" style="-fx-background-color: #2598ff;">
          <children>
-            <Label layoutX="146.0" layoutY="3.0" text="Detele Book" textFill="WHITE">
+            <Label layoutX="163.0" layoutY="2.0" text="Xóa sách" textFill="WHITE">
                <font>
                   <Font size="24.0" />
                </font>

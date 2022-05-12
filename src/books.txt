@@ -15,7 +15,7 @@
 15@Rebecca@Daphne Du Maurier@0
 16@The Hobbit@JRR Tolkien@0
 17@Birdsong@Sebastian Faulk@0
-18@Catcher in the Rye@JD Salinger@0
+18@Catcher in the Rye@JD Salinger@1
 19@The Time Traveler's Wife@Audrey Niffenegger@0
 20@Middlemarch@George Eliot@0
 21@Gone With The Wind@Margaret Mitchell@0

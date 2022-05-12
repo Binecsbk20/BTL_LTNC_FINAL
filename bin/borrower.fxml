@@ -13,13 +13,13 @@
    <children>
       <TableView fx:id="table" layoutX="20.0" layoutY="58.0" prefHeight="485.0" prefWidth="774.0">
         <columns>
-          <TableColumn fx:id="idColumn" prefWidth="70.0" text="ID" />
-          <TableColumn fx:id="UsersColumn" prefWidth="432.0" text="User's Name" />
-            <TableColumn fx:id="dateColumn" minWidth="0.0" prefWidth="254.0" text="Date" />
+          <TableColumn fx:id="idColumn" prefWidth="70.0" text="ID sách" />
+          <TableColumn fx:id="UsersColumn" prefWidth="432.0" text="Tên người mượn" />
+            <TableColumn fx:id="dateColumn" minWidth="0.0" prefWidth="254.0" text="Ngày mượn" />
         </columns>
       </TableView>
-      <Button fx:id="closeButton" layoutX="711.0" layoutY="555.0" mnemonicParsing="false" onAction="#handleCloseButtonAction" prefHeight="32.0" prefWidth="80.0" text="Back" />
-      <Text fill="WHITE" layoutX="84.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Information User">
+      <Button fx:id="closeButton" layoutX="711.0" layoutY="555.0" mnemonicParsing="false" onAction="#handleCloseButtonAction" prefHeight="32.0" prefWidth="80.0" text="Trở về" />
+      <Text fill="WHITE" layoutX="84.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lịch sử mượn sách">
          <font>
             <Font size="30.0" />
          </font>
@@ -29,7 +29,7 @@
             <Image url="@../img/5094668_account_group_team_user_icon%20(1).png" />
          </image>
       </ImageView>
-      <Button fx:id="DeleteUser" layoutX="20.0" layoutY="555.0" mnemonicParsing="false" onAction="#delete" prefHeight="32.0" prefWidth="80.0" text="Delete">
+      <Button fx:id="DeleteUser" layoutX="20.0" layoutY="555.0" mnemonicParsing="false" onAction="#delete" prefHeight="32.0" prefWidth="101.0" text="Trả sách">
          <graphic>
             <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
                <image>
