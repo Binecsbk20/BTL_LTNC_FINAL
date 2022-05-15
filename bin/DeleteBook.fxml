@@ -37,7 +37,7 @@
       <TextField fx:id="idText" layoutX="855.0" layoutY="220.0" onKeyPressed="#keyPressedsearchID" prefHeight="40.0" prefWidth="252.0" />
       <TextField fx:id="nameText" layoutX="855.0" layoutY="278.0" onKeyPressed="#keyPressedsearchName" prefHeight="40.0" prefWidth="252.0" />
       <TextField fx:id="authorText" layoutX="855.0" layoutY="339.0" onKeyPressed="#keyPressedsearchAuthor" prefHeight="40.0" prefWidth="252.0" />
-      <Button fx:id="closeButton" layoutX="1105.0" layoutY="745.0" mnemonicParsing="false" onAction="#handleCloseButtonAction" prefHeight="41.0" prefWidth="76.0" text="Trở về" />
+      <Button fx:id="closeButton" layoutX="1105.0" layoutY="745.0" mnemonicParsing="false" onAction="#handleCloseButtonAction" prefHeight="41.0" prefWidth="76.0" text="Quay lại" />
       <Button fx:id="DeleteBookBtn" layoutX="942.0" layoutY="669.0" mnemonicParsing="false" onAction="#delete" style="-fx-background-color: #f57449;" text="Xóa" textFill="#fcfcfc">
          <graphic>
             <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">

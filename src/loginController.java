@@ -52,8 +52,6 @@ public class loginController {
             alert.show();
         }
 
-        System.out.print(name);
-        System.out.print("@" + password);
     }
 
     private void loadHomePage(Event event)
@@ -76,7 +74,6 @@ public class loginController {
         }
         catch(Exception e)
         {
-            System.out.println("\nExceptions in SignInPageController.loadHomePage(Event event) -> " + e) ;
             e.printStackTrace() ;
         }
     }

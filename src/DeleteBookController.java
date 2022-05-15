@@ -94,7 +94,6 @@ public class DeleteBookController implements Initializable {
 
     public void searchName (Event e){
         String name = nameText.getText();
-        System.out.println(name);
         Vector<Book> listneed = mylibrary.search_Book_Name(name);
         table.getItems().clear();
         for(int i=0; i<listneed.size(); i++){

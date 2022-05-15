@@ -54,7 +54,6 @@ public class Library{
             }
 
             //
-            System.out.println(list_ULents.size());
             //
 
             while(booksScanner.hasNextLine()) {
@@ -79,11 +78,9 @@ public class Library{
             booksScanner.close();
             usersScanner.close();
             adminsScanner.close();
-            System.out.println("Read files successfully");
             return true;
 
         } catch (IOException e) {
-            System.out.println("Files not found");
             e.printStackTrace(); 
             return false;
         }
@@ -276,11 +273,9 @@ public class Library{
                 user.setDate(formatDate.format(date));
                 list_ULents.add(user);
                 checkAns = true;
-                System.out.println("Borrowed!");
                 return checkAns;
             }
         }
-        System.out.println("Can't borrow!");
         return checkAns;
     }
     public String getBookNamebyID (int iD) {
@@ -324,10 +319,8 @@ public class Library{
             booksF.close();
             adminsF.close();
             usersF.close();
-            System.out.println("Saved file successfully!");
             return true;
         } catch (IOException e) {
-            System.out.println("File not found!");
             e.printStackTrace(); 
             return false;
         }

@@ -32,8 +32,6 @@ public class borrowerController implements Initializable{
     public void pushdata(){
         for(int i=0; i<mylibrary.getlist_ULents().size(); i++){
             studentList.add(mylibrary.getlist_ULents().get(i));
-            System.out.println(mylibrary.getlist_ULents().get(i).getId());
-            System.out.println("success");
         }
     }
 
